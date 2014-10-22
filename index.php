@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Data Daerah</title>
+    <style>
+      #map-canvas {width:100%;height:400px;;border:solid #999 1px;}
+     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script type="text/javascript" src="ajax_daerah.js"></script>
   </head>
@@ -62,5 +65,6 @@
       <td><input type='text' id='lng' readonly></td>
     </tr>
     </table>
+    <div id="map-canvas"></div>
   </body>
 </html>
