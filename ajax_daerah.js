@@ -72,11 +72,7 @@ function showCoordinate(){
   var kel = document.getElementById("kel");
   var s = kel.options[kel.selectedIndex].text
           +', '
-          +kec.options[kec.selectedIndex].text
-          +', '
-          +kab.options[kab.selectedIndex].text
-          +', '
-          +prop.options[prop.selectedIndex].text;
+          +kec.options[kec.selectedIndex].text;
   var geocoder;
   geocoder = new google.maps.Geocoder();
   geocoder.geocode( { 'address': s}, function(results, status) {
