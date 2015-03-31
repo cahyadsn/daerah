@@ -41,3 +41,7 @@ Database daerah sesuai Permendagri no 39 tahun 2015
 | 82      | Maluku Utara              |    8 |    2 | 113 |  117 | 1063 |
 | 91      | Papua Barat               |   28 |    1 | 524 |  107 | 5118 |
 | 92      | Papua                     |   12 |    1 | 203 |   87 | 1628 |
+
+link demo bisa dilihat [di sini]
+
+[di sini]: http://phpindonesia.id1945.com/daerah/
