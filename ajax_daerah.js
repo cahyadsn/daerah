@@ -38,6 +38,11 @@ function stateChanged(){
     }else{
       document.getElementById("kota").value = "<option selected>Pilih Kota/Kab</option>";
     }
+    document.getElementById("kab_box").style.display='table-row';
+    document.getElementById("kec_box").style.display='none';
+    document.getElementById("kel_box").style.display='none';
+    document.getElementById("lat_box").style.display='none';
+    document.getElementById("lng_box").style.display='none';
   }
 }
 
@@ -50,6 +55,10 @@ function stateChangedKec(){
     }else{
       document.getElementById("kec").value = "<option selected>Pilih Kecamatan</option>";
     }
+    document.getElementById("kec_box").style.display='table-row';
+    document.getElementById("kel_box").style.display='none';
+    document.getElementById("lat_box").style.display='none';
+    document.getElementById("lng_box").style.display='none';
   }
 }
 
@@ -62,6 +71,9 @@ function stateChangedKel(){
     }else{
       document.getElementById("kel").value = "<option selected>Pilih Kelurahan/Desa</option>";
     }
+    document.getElementById("kel_box").style.display='table-row';
+    document.getElementById("lat_box").style.display='none';
+    document.getElementById("lng_box").style.display='none';
   }
 }
 
@@ -107,6 +119,8 @@ function showCoordinate(){
           +', '
           +prop.options[prop.selectedIndex].text;   
   geocoder.geocode( { 'address': s}, function(results, status) {
+  document.getElementById("lat_box").style.display='table-row';
+  document.getElementById("lng_box").style.display='table-row';
     if (status == google.maps.GeocoderStatus.OK) {
       clearOverlays();
       var position=results[0].geometry.location;
