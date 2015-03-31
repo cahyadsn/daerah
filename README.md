@@ -5,9 +5,8 @@ Menampilkan data provinsi,kota/kabupaten,kecamatan dan desa/kelurahan menggunaka
 
 Database daerah sesuai Permendagri no 39 tahun 2015
 
-+---------+---------------------------+------+------+-----+------+------+
 | id_prov | nama                      | kab  | kota | kec | kel  | desa |
-+---------+---------------------------+------+------+-----+------+------+
+|---------|---------------------------|-----:|-----:|----:|-----:|-----:|
 | 11      | Aceh                      |   18 |    5 | 289 |    0 | 6474 |
 | 12      | Sumatera Utara            |   25 |    8 | 436 |  691 | 5389 |
 | 13      | Sumatera Barat            |   12 |    7 | 179 |  259 |  880 |
@@ -42,4 +41,3 @@ Database daerah sesuai Permendagri no 39 tahun 2015
 | 82      | Maluku Utara              |    8 |    2 | 113 |  117 | 1063 |
 | 91      | Papua Barat               |   28 |    1 | 524 |  107 | 5118 |
 | 92      | Papua                     |   12 |    1 | 203 |   87 | 1628 |
-+---------+---------------------------+------+------+-----+------+------+
