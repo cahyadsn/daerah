@@ -3,6 +3,11 @@ daerah
 
 Menampilkan data provinsi,kota/kabupaten,kecamatan dan desa/kelurahan menggunakan AjAX
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/cahyadsn/daerah.svg)](https://github.com/cahyadsn/daerah/issues)
+[![GitHub forks](https://img.shields.io/github/forks/cahyadsn/daerah.svg)](https://github.com/cahyadsn/daerah/network)
+[![GitHub stars](https://img.shields.io/github/stars/cahyadsn/daerah.svg)](https://github.com/cahyadsn/daerah/stargazers)
+
 Database daerah sesuai Permendagri no 39 tahun 2015
 
 | id_prov | nama                      | kab  | kota | kec | kel  | desa |
@@ -43,5 +48,7 @@ Database daerah sesuai Permendagri no 39 tahun 2015
 | 92      | Papua                     |   12 |    1 | 203 |   87 | 1628 |
 
 link demo bisa dilihat [di sini]
+
+penambahan versi codeigniter memakai codeigniter 3.0 
 
 [di sini]: http://phpindonesia.id1945.com/daerah/
