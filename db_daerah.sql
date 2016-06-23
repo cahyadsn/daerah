@@ -54,8 +54,8 @@ INSERT INTO provinsi (id_prov, nama) VALUES
 ('76', 'Sulawesi Barat'),
 ('81', 'Maluku'),
 ('82', 'Maluku Utara'),
-('91', 'Papua Barat'),
-('92', 'Papua');
+('92', 'Papua'),
+('91', 'Papua Barat');
 
 DROP TABLE IF EXISTS kabupaten;
 CREATE TABLE IF NOT EXISTS kabupaten (
