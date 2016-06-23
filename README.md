@@ -51,4 +51,6 @@ link demo bisa dilihat [di sini]
 
 penambahan versi codeigniter memakai codeigniter 3.0 
 
+todo : perubahan data sesuai permendagri no 56 tahun 2015 (in progress)
+
 [di sini]: http://phpindonesia.id1945.com/daerah/
