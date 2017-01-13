@@ -49,6 +49,9 @@ Database daerah sesuai Permendagri no 39 tahun 2015
 |         | TOTAL                     |  416 |   98 |7094 | 8412 |74093 |
 
 link demo bisa dilihat [di sini]
+- http://cahyadsn.dev.php.or.id/extra/daerah
+- http://cahyadsn.dev.php.or.id/daerah
+- http://phpindonesia.id1945.com/daerah
 
 penambahan versi codeigniter memakai codeigniter 3.0 
 
@@ -92,4 +95,4 @@ todo : perubahan data sesuai permendagri no 56 tahun 2015 (in progress)
 | 92      | Papua Barat               |   12 |    1 | 218 |   95 | 1744 |
 |         | TOTAL                     |  416 |   98 |7160 | 8430 |74754 |
 
-[di sini]: http://phpindonesia.id1945.com/daerah/
+[di sini]: http://cahyadsn.dev.php.or.id/extra/daerah/
