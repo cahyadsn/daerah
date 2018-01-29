@@ -140,4 +140,9 @@ todo : perubahan data sesuai permendagri no 137 tahun 2017 (in progress)
 
 )* data tetap/tidak berubah
 
+## DONASI
+untuk donasi via [paypal], atau bca 1451332193
+
+
+[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K6YRM43CZ44UQ
 [di sini]: http://cahyadsn.dev.php.or.id/extra/daerah/
