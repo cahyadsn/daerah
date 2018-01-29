@@ -137,6 +137,7 @@ todo : perubahan data sesuai permendagri no 137 tahun 2017 (in progress)
 | 91      | Papua                     |   28 |    1 | 560 |  110 | 5411 |
 | 92      | Papua Barat               |   12 |    1 | 218 |  106 | 1742 |
 |         | TOTAL                     |  416 |   98 |7201 | 8490 |74957 |
+
 )* data tetap/tidak berubah
 
 [di sini]: http://cahyadsn.dev.php.or.id/extra/daerah/
