@@ -1,6 +1,6 @@
 daerah
 ======
-[versi yang sudah sesuai dengan permendagri No 56 tahun 2015 ada di https://github.com/cahyadsn/wilayah ]
+[versi yang sudah sesuai dengan permendagri No 137 tahun 2017 ada di https://github.com/cahyadsn/wilayah ]
 
 Menampilkan data provinsi,kota/kabupaten,kecamatan dan desa/kelurahan menggunakan AjAX
 
