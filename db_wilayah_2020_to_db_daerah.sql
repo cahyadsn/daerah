@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS kabupaten (
 -- TRUNCATE TABLE kabupaten;
 INSERT INTO kabupaten (id_kab, id_prov, nama, id_jenis)
 SELECT 
-    REPLACE(kode,'.') AS id_kab, 
+    REPLACE(kode,'.','') AS id_kab, 
     LEFT(kode,2) AS id_prov, 
     nama, 
     IF(SUBSTR(kode,4,1)='7',2,1) AS id_jenis
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS kecamatan (
 -- TRUNCATE TABLE kecamatan;
 INSERT INTO kecamatan (id_kec, id_kab, nama)
 SELECT 
-    REPLACE(kode,'.') AS id_kec, 
+    REPLACE(kode,'.','') AS id_kec, 
     REPLACE(LEFT(kode,5),'.') AS id_kab, 
     nama
 FROM wilayah_2020
@@ -70,11 +70,10 @@ CREATE TABLE IF NOT EXISTS kelurahan (
 -- TRUNCATE TABLE kelurahan;
 INSERT INTO kelurahan (id_kel, id_kec, nama, id_jenis)
 SELECT 
-    REPLACE(kode,'.') AS id_kel, 
+    REPLACE(kode,'.','') AS id_kel, 
     LEFT(kode,8) AS id_kec, 
     nama, 
     IF(SUBSTR(kode,10,1)='2',3,4) AS id_jenis
 FROM wilayah_2020
 WHERE LENGTH(kode)=13
 ORDER BY kode;
-
