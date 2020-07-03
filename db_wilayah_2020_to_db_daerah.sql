@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS kecamatan (
 INSERT INTO kecamatan (id_kec, id_kab, nama)
 SELECT 
     REPLACE(kode,'.','') AS id_kec, 
-    REPLACE(LEFT(kode,5),'.') AS id_kab, 
+    REPLACE(LEFT(kode,5),'.','') AS id_kab, 
     nama
 FROM wilayah_2020
 WHERE LENGTH(kode)=8
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS kelurahan (
 INSERT INTO kelurahan (id_kel, id_kec, nama, id_jenis)
 SELECT 
     REPLACE(kode,'.','') AS id_kel, 
-    LEFT(kode,8) AS id_kec, 
+    REPLACE(LEFT(kode,8),'.','') AS id_kec, 
     nama, 
     IF(SUBSTR(kode,10,1)='2',3,4) AS id_jenis
 FROM wilayah_2020
