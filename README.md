@@ -2,7 +2,7 @@ daerah
 ======
 [versi yang sudah sesuai dengan permendagri No 137 tahun 2017 ada di https://github.com/cahyadsn/wilayah ]
 
-)* karena adanya perbedaan struktur db/table antara repo wilayah [https://github.com/cahyadsn/wilayah] dengan struktur tabel di repo daerah ini, maka ditambahkan query untuk konversinya di file db_wilayah_2020_to_db_daerah.sql (konversi dari data wilayah_2020 ke daerah)
+)* karena adanya perbedaan struktur db/table antara repo wilayah [https://github.com/cahyadsn/wilayah] dengan struktur tabel di repo daerah ini, maka ditambahkan query untuk konversinya di file db_wilayah_hto_db_daerah.sql (konversi dari data wilayah ke daerah)
 
 Menampilkan data provinsi,kota/kabupaten,kecamatan dan desa/kelurahan menggunakan AjAX
 
