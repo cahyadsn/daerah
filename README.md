@@ -1,6 +1,6 @@
 daerah
 ======
-> repo ini sudah deprecated, versi yang sudah sesuai dengan permendagri No 58 tahun 2021 ada di https://github.com/cahyadsn/wilayah 
+> repo ini sudah deprecated, versi yang sudah sesuai dengan Kepmendagri No 100.1.1-6117 tahun 2022 ada di https://github.com/cahyadsn/wilayah 
 
 )* karena adanya perbedaan struktur db/table antara repo wilayah [https://github.com/cahyadsn/wilayah] dengan struktur tabel di repo daerah ini, maka ditambahkan query untuk konversinya di file db_wilayah_to_db_daerah.sql (konversi dari data wilayah ke daerah)
 
